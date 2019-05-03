@@ -13,6 +13,7 @@ class PigLatinizer
         new_sentence += pig_word(word)
       else 
         new_sentence += " " + pig_word(word)
+      end 
     end 
     
     
