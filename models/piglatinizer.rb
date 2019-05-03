@@ -5,7 +5,8 @@ class PigLatinizer
   def initialize
   end 
   
-  def piglatinize(word)
+  def piglatinize(sentence)
+    words = sentence.split(" ")
     pig_word(word)
   end 
   
