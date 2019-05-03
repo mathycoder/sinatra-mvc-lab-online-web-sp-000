@@ -10,6 +10,7 @@ class App < Sinatra::Base
     puts params 
     @phrase = params[:user_phrase]
     @pig = PigLatinizer.new 
+    binding.pry 
     erb :result
   end 
   
