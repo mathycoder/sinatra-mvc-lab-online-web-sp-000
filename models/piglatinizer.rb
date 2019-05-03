@@ -16,7 +16,6 @@ class PigLatinizer
       end 
     end 
     new_sentence 
-    
   end 
   
   def pig_word(word)
