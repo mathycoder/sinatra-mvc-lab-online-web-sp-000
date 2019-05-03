@@ -6,6 +6,6 @@ class PigLatinizer
   end 
   
   def piglatinize(word)
-    latinized_word = word[1..] + word[0] + "ay"
+    word[1..] + word[0] + "ay"
   end 
 end 
