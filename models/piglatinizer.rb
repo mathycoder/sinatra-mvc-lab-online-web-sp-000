@@ -9,7 +9,7 @@ class PigLatinizer
     
     binding.pry 
     
-    word.split(/[^aeiou]+/)
+    word.split(/[aeiou]+/)
     
     fletter = word[0].downcase 
     if fletter != "a" && fletter != "e" && fletter != "i" && fletter != "o" && fletter != "u"
