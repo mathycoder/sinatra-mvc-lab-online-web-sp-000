@@ -7,9 +7,15 @@ class PigLatinizer
   
   def piglatinize(sentence)
     words = sentence.split(" ")
-    words.each do |word|
-      pig_word(word)
+    new_sentence = ""
+    words.each_with_index do |word, index|
+      if index == 0 
+        new_sentence += pig_word(word)
+      else 
+        new_sentence += " " + pig_word(word)
     end 
+    
+    
   end 
   
   def pig_word(word)
