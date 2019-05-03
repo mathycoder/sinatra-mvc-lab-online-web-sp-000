@@ -6,7 +6,7 @@ class PigLatinizer
   end 
   
   def piglatinize(word)
-    word = word.lowcase 
+    word = word.downcase 
     if word[0] != 'a'
     word[1..] + word[0] + "ay"
   end 
