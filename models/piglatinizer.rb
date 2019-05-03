@@ -8,7 +8,7 @@ class PigLatinizer
   def piglatinize(word)
 
     fletter = word.split(/[aeiouAEIOU]/)[0]
-    if fletter == nil
+    if fletter == nil || fletter == ""
       word + "way"
     else 
       word.split(fletter)[1] + fletter + "ay"
