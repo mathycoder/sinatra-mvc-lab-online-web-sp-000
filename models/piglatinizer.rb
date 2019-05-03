@@ -4,6 +4,6 @@ class PigLatinizer
   end 
   
   def piglatinize(word)
-    
+    binding.pry
   end 
 end 
