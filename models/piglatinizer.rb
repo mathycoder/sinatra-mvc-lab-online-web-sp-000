@@ -9,12 +9,9 @@ class PigLatinizer
     
     binding.pry 
     
-    word.split(/[aeiou]/)[0]
-    
-    fletter = word[0].downcase 
-    if fletter != "a" && fletter != "e" && fletter != "i" && fletter != "o" && fletter != "u"
-      word[1..] + word[0] + "ay"
-    else
+    fletter = word.split(/[aeiou]/)[0]
+
+    if fletter == ""
       word + "way"
     end 
   end 
