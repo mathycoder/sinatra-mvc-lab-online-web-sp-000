@@ -10,9 +10,10 @@ class PigLatinizer
     binding.pry 
     
     fletter = word.split(/[aeiou]/)[0]
-
     if fletter == ""
       word + "way"
+    else 
+      
     end 
   end 
 end 
