@@ -23,7 +23,7 @@ class PigLatinizer
     if fletter == nil || fletter == ""
       word + "way"
     else 
-      word.split(fletter)[1] + fletter + "ay"
+      word.split(fletter, 2)[1] + fletter + "ay"
     end 
   end 
 end 
