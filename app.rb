@@ -9,6 +9,7 @@ class App < Sinatra::Base
   post '/pig_latinize' do 
     puts params 
     @phrase = params[:user_phrase]
+    @pig = PigLatinizer.new 
     erb :result
   end 
   
