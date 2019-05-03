@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end 
   
   post '/piglatinize' do 
-    puts 
+    puts params 
     erb :result
   end 
   
