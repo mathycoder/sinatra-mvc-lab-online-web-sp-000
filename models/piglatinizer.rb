@@ -6,7 +6,6 @@ class PigLatinizer
   end 
   
   def piglatinize(word)
-    word[1..] + word[0]
-    binding.pry
+    latinized_word = word[1..] + word[0]
   end 
 end 
