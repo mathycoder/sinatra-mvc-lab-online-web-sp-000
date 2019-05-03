@@ -15,7 +15,7 @@ class PigLatinizer
         new_sentence += " " + pig_word(word)
       end 
     end 
-    
+    new_sentence 
     
   end 
   
